@@ -1,6 +1,7 @@
 import csv
 import io
 import tempfile
+import zipfile
 from pathlib import Path
 
 import streamlit as st
@@ -25,6 +26,61 @@ def _save_uploaded_file(uploaded_file) -> str:
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         tmp.write(uploaded_file.getbuffer())
         return tmp.name
+
+
+def _extract_csv_paths_from_zip(uploaded_zip) -> tuple[str, str]:
+    """
+    Extract fixtures/standings CSVs from an uploaded ZIP and return temp file paths.
+
+    Matching is done by filename keywords:
+    - fixtures file name contains "fixtures"
+    - standings file name contains "standings"
+    """
+    zip_bytes = io.BytesIO(uploaded_zip.getvalue())
+    with zipfile.ZipFile(zip_bytes) as zf:
+        file_names = zf.namelist()
+        fixtures_matches = [
+            name
+            for name in file_names
+            if name.lower().endswith(".csv") and "fixtures" in Path(name).name.lower()
+        ]
+        standings_matches = [
+            name
+            for name in file_names
+            if name.lower().endswith(".csv") and "standings" in Path(name).name.lower()
+        ]
+
+        if not fixtures_matches:
+            raise ValueError("No CSV containing 'fixtures' found in the ZIP file.")
+        if not standings_matches:
+            raise ValueError("No CSV containing 'standings' found in the ZIP file.")
+        if len(fixtures_matches) > 1:
+            raise ValueError(
+                "Multiple CSV files containing 'fixtures' found in the ZIP. "
+                "Please include only one."
+            )
+        if len(standings_matches) > 1:
+            raise ValueError(
+                "Multiple CSV files containing 'standings' found in the ZIP. "
+                "Please include only one."
+            )
+
+        fixtures_name = fixtures_matches[0]
+        standings_name = standings_matches[0]
+
+        with zf.open(fixtures_name) as src:
+            fixtures_bytes = src.read()
+        with zf.open(standings_name) as src:
+            standings_bytes = src.read()
+
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".csv") as fixtures_tmp:
+        fixtures_tmp.write(fixtures_bytes)
+        fixtures_path = fixtures_tmp.name
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".csv") as standings_tmp:
+        standings_tmp.write(standings_bytes)
+        standings_path = standings_tmp.name
+
+    return fixtures_path, standings_path
 
 
 def _build_output_files(matchups, next_round: int) -> tuple[str, str]:
@@ -74,7 +130,7 @@ def main():
     use_defaults = st.checkbox(
         "Use default files from this repo",
         value=True,
-        help="Uncheck to upload fresh fixtures/standings CSV files.",
+        help="Uncheck to upload a ZIP containing fixtures and standings CSV files.",
     )
 
     fixtures_path = None
@@ -84,23 +140,29 @@ def main():
         if not Path(DEFAULT_FIXTURES).exists() or not Path(DEFAULT_STANDINGS).exists():
             st.error(
                 "Default files were not found in this deployment. "
-                "Uncheck 'Use default files' and upload both files manually."
+                "Uncheck 'Use default files' and upload a ZIP file manually."
             )
         else:
             fixtures_path = DEFAULT_FIXTURES
             standings_path = DEFAULT_STANDINGS
             st.success("Using default CSV files from the repository.")
     else:
-        fixtures_upload = st.file_uploader("Fixtures CSV", type=["csv"])
-        standings_upload = st.file_uploader("Standings CSV", type=["csv"])
-        if fixtures_upload and standings_upload:
-            fixtures_path = _save_uploaded_file(fixtures_upload)
-            standings_path = _save_uploaded_file(standings_upload)
+        zip_upload = st.file_uploader("League ZIP file", type=["zip"])
+        if zip_upload:
+            try:
+                fixtures_path, standings_path = _extract_csv_paths_from_zip(zip_upload)
+                st.success(
+                    "ZIP processed successfully. Found one fixtures CSV and one standings CSV."
+                )
+            except Exception as exc:
+                st.error(f"Unable to process ZIP: {exc}")
 
     st.subheader("2) Generate pairings")
     if st.button("Generate Matchups", type="primary"):
         if not fixtures_path or not standings_path:
-            st.warning("Please provide both fixtures and standings files.")
+            st.warning(
+                "Please use default files or upload a ZIP containing fixtures/standings CSVs."
+            )
             return
 
         try:
