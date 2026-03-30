@@ -1,0 +1,12 @@
+Round	Table	TeamNameHome        	TeamNameAway                    
+9    	1    	AllBlood U          	Mummies With Attitude           
+9    	2    	The Lab Rats        	The Lords of Minor Inconvenience
+9    	3    	Pond Scum           	Atomic Tators                   
+9    	4    	Dream Sickles       	Snot: My Problem                
+9    	5    	Da Blue Bois        	Karnage City Cheats             
+9    	6    	Hedonite FC         	The Sylvania Starters           
+9    	7    	Iron Horse Helsmiths	The Twinkzone Tipflickas        
+9    	8    	The Inquisition     	The Magnificent Mortley         
+9    	9    	Gnewport Gnomies    	The Blood Synthesizers          
+9    	10   	Lunar Bloodletters  	Green Swamp OoohhGrrrrs         
+9    	11   	Total Khornage      	Possum Lodge                    

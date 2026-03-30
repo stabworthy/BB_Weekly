@@ -1,0 +1,89 @@
+﻿Category;Phase;Group;Round;Table;TeamNameHome;TeamNameAway;CoachHome;CoachAway;TeamRaceHome;TeamRaceAway;NafUserHome;NafUserAway;ScoreHome;ScoreAway;CasualtiesHome;CasualtiesAway;Suspended;ConcedeHome;ConcedeAway;UtcStart;UtcFinish
+Season;Main;;3;3;Dream Sickles;The Lords of Minor Inconvenience;Retloc;Pete;Lizardmen;Imperial Nobility;;;2;1;2;3;;;;2026-02-17T00:01:59Z;2026-02-17T02:45:55Z
+Season;Main;;1;5;Pond Scum;The Lords of Minor Inconvenience;Tyson;Pete;Slann;Imperial Nobility;;;2;1;5;0;;;;2026-02-02T23:17:42Z;2026-02-03T02:24:39Z
+Season;Main;;4;3;Da Blue Bois;Mummies With Attitude;Firstnames;Corbin;Black Orc;Tomb Kings;;;0;3;0;4;;;;2026-02-24T22:59:53Z;2026-02-25T01:03:33Z
+Season;Main;;6;2;The Lords of Minor Inconvenience;Mummies With Attitude;Pete;Corbin;Imperial Nobility;Tomb Kings;;;0;0;0;1;;;;2026-03-13T21:06:16Z;2026-03-13T23:05:20Z
+Season;Main;;8;2;The Lab Rats;Mummies With Attitude;BigJoeBabowski;Corbin;Skaven;Tomb Kings;;;1;0;1;4;;;;2026-03-26T21:23:13Z;2026-03-26T23:41:01Z
+Season;Main;;2;7;Total Khornage;Mummies With Attitude;RC West;Corbin;Khorne;Tomb Kings;;;0;1;1;1;;;;2026-02-15T23:02:37Z;2026-02-16T00:51:49Z
+Season;Main;;5;2;The Lab Rats;AllBlood U;BigJoeBabowski;Mike;Skaven;Vampire;;;1;2;1;4;;;;2026-03-07T17:27:35Z;2026-03-07T21:22:10Z
+Season;Main;;8;1;The Lords of Minor Inconvenience;AllBlood U;Pete;Mike;Imperial Nobility;Vampire;;;1;3;4;3;;;;2026-03-23T21:18:54Z;2026-03-23T23:30:06Z
+Season;Main;;2;1;Hedonite FC;AllBlood U;Urdnot_Wellman;Mike;Chaos Chosen;Vampire;;;0;1;2;1;;;;2026-02-10T00:04:36Z;2026-02-10T02:42:24Z
+Season;Main;;3;1;Atomic Tators;AllBlood U;Evillscotsman;Mike;Chaos Dwarf;Vampire;;;0;2;3;3;;;;2026-02-18T23:01:32Z;2026-02-19T01:37:57Z
+Season;Main;;4;4;Lunar Bloodletters;Dream Sickles;Bryanna;Retloc;Dark Elf;Lizardmen;;;0;2;0;3;;;;2026-02-24T00:15:42Z;2026-02-24T03:39:27Z
+Season;Main;;5;1;Mummies With Attitude;Dream Sickles;Corbin;Retloc;Tomb Kings;Lizardmen;;;0;1;1;3;;;;2026-03-04T00:53:46Z;2026-03-04T03:03:12Z
+Season;Main;;6;1;AllBlood U;Dream Sickles;Mike;Retloc;Vampire;Lizardmen;;;2;1;1;4;;;;2026-03-11T22:58:46Z;2026-03-12T02:08:33Z
+Season;Main;;3;9;The Inquisition;Green Swamp OoohhGrrrrs;Coach Hart;BJ ;Human;Ogre;;;2;1;5;0;;;;2026-02-21T15:23:14Z;2026-02-21T19:44:51Z
+Season;Main;;4;11;The Blood Synthesizers;Green Swamp OoohhGrrrrs;DrPretzel;BJ ;Khorne;Ogre;;;0;6;6;3;;;;2026-03-02T22:34:26Z;2026-03-03T02:56:12Z
+Season;Main;;5;11;Total Khornage;Green Swamp OoohhGrrrrs;RC West;BJ ;Khorne;Ogre;;;0;0;2;3;;;;2026-03-09T22:07:37Z;2026-03-10T01:13:45Z
+Season;Main;;7;10;The Sylvania Starters;Green Swamp OoohhGrrrrs;Jaybles;BJ ;Shambling Undead;Ogre;;;2;0;6;0;;;;2026-03-23T16:14:31Z;2026-03-23T19:12:49Z
+Season;Main;;6;4;Pond Scum;Hedonite FC;Tyson;Urdnot_Wellman;Slann;Chaos Chosen;;;3;1;2;4;;;;2026-03-10T23:36:54Z;2026-03-11T03:01:27Z
+Season;Main;;8;6;The Twinkzone Tipflickas;Hedonite FC;TravyWavvy;Urdnot_Wellman;Snotling;Chaos Chosen;;;0;2;2;2;;;;2026-03-27T17:49:46Z;2026-03-27T20:25:15Z
+Season;Main;;4;7;Karnage City Cheats;Hedonite FC;Anthony Nevill;Urdnot_Wellman;Orc;Chaos Chosen;;;1;1;1;1;;;;2026-03-02T00:46:17Z;2026-03-02T04:03:32Z
+Season;Main;;7;3;Mummies With Attitude;Hedonite FC;Corbin;Urdnot_Wellman;Tomb Kings;Chaos Chosen;;;2;0;3;1;;;;2026-03-23T23:08:50Z;2026-03-24T01:08:29Z
+Season;Main;;4;6;The Lords of Minor Inconvenience;Iron Horse Helsmiths;Pete;JohnTaylor;Imperial Nobility;Chaos Dwarf;;;2;0;3;4;;;;2026-02-28T19:51:09Z;2026-02-28T22:56:07Z
+Season;Main;;5;7;The Inquisition;Iron Horse Helsmiths;Coach Hart;JohnTaylor;Human;Chaos Dwarf;;;1;0;1;3;;;;2026-03-08T00:37:16Z;2026-03-08T03:29:45Z
+Season;Main;;3;4;Hedonite FC;Iron Horse Helsmiths;Urdnot_Wellman;JohnTaylor;Chaos Chosen;Chaos Dwarf;;;1;1;0;2;;;;2026-02-16T22:38:32Z;2026-02-17T01:39:58Z
+Season;Main;;7;6;Snot: My Problem;Iron Horse Helsmiths;Iceicebrownie;JohnTaylor;Snotling;Chaos Dwarf;;;1;0;1;5;;;;2026-03-20T23:16:41Z;2026-03-21T02:21:16Z
+Season;Main;;2;4;The Lab Rats;Iron Horse Helsmiths;BigJoeBabowski;JohnTaylor;Skaven;Chaos Dwarf;;;4;0;1;4;;;;2026-02-09T23:33:08Z;2026-02-10T02:42:04Z
+Season;Main;;2;11;The Lords of Minor Inconvenience;The Inquisition;Pete;Coach Hart;Imperial Nobility;Human;;;3;0;4;2;;;;2026-02-09T21:09:09Z;2026-02-09T23:55:29Z
+Season;Main;;1;2;Hedonite FC;The Blood Synthesizers;Urdnot_Wellman;DrPretzel;Chaos Chosen;Khorne;;;3;0;2;1;;;;2026-02-03T00:15:26Z;2026-02-03T03:02:26Z
+Season;Main;;7;11;The Magnificent Mortley;The Blood Synthesizers;andrew rico;DrPretzel;Bretonnian;Khorne;;;5;0;5;2;;;;2026-03-23T21:35:19Z;2026-03-24T00:18:55Z
+Season;Main;;6;11;Total Khornage;The Blood Synthesizers;RC West;DrPretzel;Khorne;Khorne;;;1;0;1;2;;;;2026-03-12T22:50:27Z;2026-03-13T01:08:06Z
+Season;Main;;3;11;Lunar Bloodletters;The Blood Synthesizers;Bryanna;DrPretzel;Dark Elf;Khorne;;;3;0;1;0;;;;2026-02-17T16:14:52Z;2026-02-17T21:11:38Z
+Season;Main;;5;10;The Sylvania Starters;The Blood Synthesizers;Jaybles;DrPretzel;Shambling Undead;Khorne;;;5;0;2;0;;;;2026-03-06T01:24:46Z;2026-03-06T03:56:08Z
+Season;Main;;5;4;Pond Scum;Snot: My Problem;Tyson;Iceicebrownie;Slann;Snotling;;;2;1;4;1;;;;2026-03-08T22:08:47Z;2026-03-09T02:37:54Z
+Season;Main;;3;6;The Sylvania Starters;Snot: My Problem;Jaybles;Iceicebrownie;Shambling Undead;Snotling;;;0;1;6;0;;;;2026-02-21T01:39:14Z;2026-02-21T04:25:45Z
+Season;Main;;6;3;The Lab Rats;Snot: My Problem;BigJoeBabowski;Iceicebrownie;Skaven;Snotling;;;6;0;3;1;;;;2026-03-13T22:16:32Z;2026-03-14T03:06:20Z
+Season;Main;;1;4;Possum Lodge;Snot: My Problem;alexbenj;Iceicebrownie;Ogre;Snotling;;;0;0;3;4;;;;2026-01-31T17:18:07Z;2026-01-31T20:18:02Z
+Season;Main;;8;5;The Inquisition;Snot: My Problem;Coach Hart;Iceicebrownie;Human;Snotling;;;2;2;1;3;;;;2026-03-29T23:53:16Z;2026-03-30T02:49:44Z
+Season;Main;;4;1;AllBlood U;Snot: My Problem;Mike;Iceicebrownie;Vampire;Snotling;;;3;0;8;4;;;;2026-03-04T23:32:12Z;2026-03-05T02:29:11Z
+Season;Main;;7;2;Dream Sickles;The Lab Rats;Retloc;BigJoeBabowski;Lizardmen;Skaven;;;1;4;2;4;;;;2026-03-16T22:51:29Z;2026-03-17T02:30:23Z
+Season;Main;;1;10;The Inquisition;The Lab Rats;Coach Hart;BigJoeBabowski;Human;Skaven;;;2;3;2;0;;;;2026-02-05T21:16:31Z;2026-02-06T01:09:27Z
+Season;Main;;8;9;The Blood Synthesizers;Possum Lodge;DrPretzel;alexbenj;Khorne;Ogre;;;;;;;;;;;
+Season;Main;;5;9;Karnage City Cheats;Possum Lodge;Anthony Nevill;alexbenj;Orc;Ogre;;;3;0;8;1;;;;2026-03-09T22:17:01Z;2026-03-10T00:55:15Z
+Season;Main;;3;5;Gnewport Gnomies;Possum Lodge;Dante Hart;alexbenj;Gnome;Ogre;;;2;1;2;4;;;;2026-02-21T19:21:38Z;2026-02-21T23:18:43Z
+Season;Main;;6;10;Green Swamp OoohhGrrrrs;Possum Lodge;BJ ;alexbenj;Ogre;Ogre;;;1;2;1;5;;;;2026-03-14T21:19:31Z;2026-03-15T00:40:08Z
+Season;Main;;2;6;The Sylvania Starters;Possum Lodge;Jaybles;alexbenj;Shambling Undead;Ogre;;;1;1;3;2;;;;2026-02-11T22:33:31Z;2026-02-12T00:59:47Z
+Season;Main;;7;8;Atomic Tators;Possum Lodge;Evillscotsman;alexbenj;Chaos Dwarf;Ogre;;;1;0;5;1;;;;2026-03-23T23:13:54Z;2026-03-24T02:12:17Z
+Season;Main;;6;6;Atomic Tators;The Twinkzone Tipflickas;Evillscotsman;TravyWavvy;Chaos Dwarf;Snotling;;;0;1;2;0;;;;2026-03-15T16:38:35Z;2026-03-15T19:47:08Z
+Season;Main;;1;3;Mummies With Attitude;The Twinkzone Tipflickas;Corbin;TravyWavvy;Tomb Kings;Snotling;;;1;2;5;0;;;;2026-02-09T01:28:02Z;2026-02-09T03:25:35Z
+Season;Main;;2;5;Snot: My Problem;The Twinkzone Tipflickas;Iceicebrownie;TravyWavvy;Snotling;Snotling;;;2;1;4;5;;;;2026-02-17T01:25:23Z;2026-02-17T03:54:33Z
+Season;Main;;4;8;Possum Lodge;The Twinkzone Tipflickas;alexbenj;TravyWavvy;Ogre;Snotling;;;1;3;2;1;;;;2026-02-28T19:19:14Z;2026-02-28T21:44:22Z
+Season;Main;;3;7;The Twinkzone Tipflickas;Total Khornage;TravyWavvy;RC West;Snotling;Khorne;;;1;1;2;3;;;;2026-02-19T23:21:47Z;2026-02-20T01:18:50Z
+Season;Main;;7;9;Gnewport Gnomies;Total Khornage;Dante Hart;RC West;Gnome;Khorne;;;2;1;1;2;;;;2026-03-22T16:58:44Z;2026-03-22T19:49:30Z
+Season;Main;;1;1;Karnage City Cheats;Total Khornage;Anthony Nevill;RC West;Orc;Khorne;;;1;1;1;2;;;;2026-02-08T23:08:30Z;2026-02-09T01:46:16Z
+Season;Main;;7;5;The Twinkzone Tipflickas;Karnage City Cheats;TravyWavvy;Anthony Nevill;Snotling;Orc;;;1;1;1;2;;;;2026-03-24T23:15:30Z;2026-03-25T02:38:59Z
+Season;Main;;6;9;The Magnificent Mortley;Karnage City Cheats;andrew rico;Anthony Nevill;Bretonnian;Orc;;;0;2;1;3;;;;2026-03-17T22:17:24Z;2026-03-18T02:04:20Z
+Season;Main;;3;8;Mummies With Attitude;Karnage City Cheats;Corbin;Anthony Nevill;Tomb Kings;Orc;;;1;0;5;0;;;;2026-02-17T23:20:35Z;2026-02-18T02:08:18Z
+Season;Main;;2;8;Green Swamp OoohhGrrrrs;Karnage City Cheats;BJ ;Anthony Nevill;Ogre;Orc;;;0;2;0;9;;;;2026-02-16T21:54:39Z;2026-02-17T01:00:24Z
+Season;Main;;8;3;Dream Sickles;Karnage City Cheats;Retloc;Anthony Nevill;Lizardmen;Orc;;;2;1;1;2;;;;2026-03-29T22:23:28Z;2026-03-30T02:27:49Z
+Season;Main;;6;7;Lunar Bloodletters;Gnewport Gnomies;Bryanna;Dante Hart;Dark Elf;Gnome;;;1;1;1;0;;;;2026-03-10T00:16:07Z;2026-03-10T04:08:38Z
+Season;Main;;5;6;The Twinkzone Tipflickas;Gnewport Gnomies;TravyWavvy;Dante Hart;Snotling;Gnome;;;1;1;3;4;;;;2026-03-07T18:18:50Z;2026-03-07T21:19:35Z
+Season;Main;;8;11;Iron Horse Helsmiths;Gnewport Gnomies;JohnTaylor;Dante Hart;Chaos Dwarf;Gnome;;;2;1;5;1;;;;2026-03-28T16:20:23Z;2026-03-28T20:05:37Z
+Season;Main;;4;5;Pond Scum;Gnewport Gnomies;Tyson;Dante Hart;Slann;Gnome;;;2;1;3;4;;;;2026-02-28T18:17:47Z;2026-02-28T22:34:15Z
+Season;Main;;2;2;Atomic Tators;Gnewport Gnomies;Evillscotsman;Dante Hart;Chaos Dwarf;Gnome;;;1;0;5;0;;;;2026-02-13T00:36:28Z;2026-02-13T04:41:17Z
+Season;Main;;4;10;Total Khornage;The Magnificent Mortley;RC West;andrew rico;Khorne;Bretonnian;;;0;3;0;2;;;;2026-02-28T22:19:27Z;2026-03-01T01:29:30Z
+Season;Main;;8;7;Green Swamp OoohhGrrrrs;The Magnificent Mortley;BJ ;andrew rico;Ogre;Bretonnian;;;;;;;;;;;
+Season;Main;;5;8;Hedonite FC;The Magnificent Mortley;Urdnot_Wellman;andrew rico;Chaos Chosen;Bretonnian;;;3;0;3;1;;;;2026-03-06T23:09:18Z;2026-03-07T02:40:02Z
+Season;Main;;1;6;AllBlood U;The Magnificent Mortley;Mike;andrew rico;Vampire;Bretonnian;;;4;0;1;0;;;;2026-02-07T00:08:03Z;2026-02-07T03:49:29Z
+Season;Main;;7;7;The Inquisition;Lunar Bloodletters;Coach Hart;Bryanna;Human;Dark Elf;;;3;1;2;0;;;;2026-03-16T20:03:12Z;2026-03-16T23:08:57Z
+Season;Main;;1;11;Iron Horse Helsmiths;Lunar Bloodletters;JohnTaylor;Bryanna;Chaos Dwarf;Dark Elf;;;2;1;3;0;;;;2026-02-07T18:09:38Z;2026-02-07T21:21:15Z
+Season;Main;;2;10;The Magnificent Mortley;Lunar Bloodletters;andrew rico;Bryanna;Bretonnian;Dark Elf;;;0;2;2;4;;;;2026-02-17T23:42:39Z;2026-02-18T03:35:23Z
+Season;Main;;5;5;Da Blue Bois;Lunar Bloodletters;Firstnames;Bryanna;Black Orc;Dark Elf;;;1;1;3;2;;;;2026-03-03T21:28:48Z;2026-03-04T01:26:26Z
+Season;Main;;8;10;Lunar Bloodletters;Atomic Tators;Bryanna;Evillscotsman;Dark Elf;Chaos Dwarf;;;0;2;0;1;;;;2026-03-26T16:53:58Z;2026-03-28T18:18:18Z
+Season;Main;;4;2;The Lab Rats;Atomic Tators;BigJoeBabowski;Evillscotsman;Skaven;Chaos Dwarf;;;3;1;0;2;;;;2026-02-26T18:32:45Z;2026-02-26T22:08:18Z
+Season;Main;;1;8;Green Swamp OoohhGrrrrs;Atomic Tators;BJ ;Evillscotsman;Ogre;Chaos Dwarf;;;0;2;1;6;;;;2026-02-02T23:54:39Z;2026-02-03T02:52:45Z
+Season;Main;;5;3;The Lords of Minor Inconvenience;Atomic Tators;Pete;Evillscotsman;Imperial Nobility;Chaos Dwarf;;;2;0;2;0;;;;2026-03-02T22:37:51Z;2026-03-03T02:10:17Z
+Season;Main;;7;1;AllBlood U;Pond Scum;Mike;Tyson;Vampire;Slann;;;0;1;1;3;;;;2026-03-18T22:29:31Z;2026-03-19T01:42:07Z
+Season;Main;;2;3;Dream Sickles;Pond Scum;Retloc;Tyson;Lizardmen;Slann;;;1;1;4;3;;;;2026-02-12T00:21:42Z;2026-02-12T03:20:24Z
+Season;Main;;3;2;The Lab Rats;Pond Scum;BigJoeBabowski;Tyson;Skaven;Slann;;;2;2;1;0;;;;2026-02-18T23:33:17Z;2026-02-19T02:09:47Z
+Season;Main;;1;7;Gnewport Gnomies;The Sylvania Starters;Dante Hart;Jaybles;Gnome;Shambling Undead;;;1;0;0;3;;;;2026-02-01T18:00:53Z;2026-02-01T22:03:21Z
+Season;Main;;8;8;Total Khornage;The Sylvania Starters;RC West;Jaybles;Khorne;Shambling Undead;;;0;1;4;1;;;;2026-03-26T02:05:37Z;2026-03-26T04:07:20Z
+Season;Main;;6;8;Iron Horse Helsmiths;The Sylvania Starters;JohnTaylor;Jaybles;Chaos Dwarf;Shambling Undead;;;2;1;4;2;;;;2026-03-15T16:36:11Z;2026-03-15T19:12:49Z
+Season;Main;;4;9;The Inquisition;The Sylvania Starters;Coach Hart;Jaybles;Human;Shambling Undead;;;2;1;3;0;;;;2026-02-24T23:26:13Z;2026-02-25T02:25:03Z
+Season;Main;;6;5;The Inquisition;Da Blue Bois;Coach Hart;Firstnames;Human;Black Orc;;;1;3;1;3;;;;2026-03-10T22:11:29Z;2026-03-11T00:55:02Z
+Season;Main;;1;9;Dream Sickles;Da Blue Bois;Retloc;Firstnames;Lizardmen;Black Orc;;;1;0;1;2;;;;2026-02-01T22:49:06Z;2026-02-02T02:39:26Z
+Season;Main;;7;4;The Lords of Minor Inconvenience;Da Blue Bois;Pete;Firstnames;Imperial Nobility;Black Orc;;;1;1;1;2;;;;2026-03-19T21:02:23Z;2026-03-20T00:34:26Z
+Season;Main;;3;10;The Magnificent Mortley;Da Blue Bois;andrew rico;Firstnames;Bretonnian;Black Orc;;;0;2;1;2;;;;2026-02-22T01:43:20Z;2026-02-22T05:28:55Z
+Season;Main;;2;9;The Blood Synthesizers;Da Blue Bois;DrPretzel;Firstnames;Khorne;Black Orc;;;0;3;1;3;;;;2026-02-16T22:36:15Z;2026-02-17T02:59:18Z
+Season;Main;;8;4;Pond Scum;Da Blue Bois;Tyson;Firstnames;Slann;Black Orc;;;2;1;2;4;;;;2026-03-25T23:48:43Z;2026-03-26T03:37:24Z
