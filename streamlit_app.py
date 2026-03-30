@@ -129,7 +129,7 @@ def main():
     st.subheader("1) Choose input files")
     use_defaults = st.checkbox(
         "Use default files from this repo",
-        value=True,
+        value=False,
         help="Uncheck to upload a ZIP containing fixtures and standings CSV files.",
     )
 
